@@ -6,10 +6,9 @@
 // Усі символи slug повинні бути в нижньому регістрі.
 // Усі слова slug повинні бути розділені тире.
     
-    
-    
-    
-    
+// function slugify(title) {
+//     return title.toLowerCase().split(" ").join("-");
+// }
 // console.log(slugify("Arrays for beginners"));
 // console.log(slugify("English for developer"));
 // console.log(slugify("Ten secrets of JavaScript"));
@@ -17,10 +16,7 @@
 
 
 // TASK2
-
-
 // Напиши функцію під назвою makeArray, яка приймає три параметри: firstArray (масив), secondArray (масив) і maxLength (число). Функція повинна створювати новий масив, який містить усі елементи з firstArray, а потім усі елементи з secondArray.
-
 // Якщо кількість елементів у новому масиві перевищує maxLength, функція повинна повернути копію масиву з довжиною maxLength елементів.
 // В іншому випадку функція повинна повернути весь новий масив.
     
