@@ -18,7 +18,7 @@
 //  } else if (30 <= min <= 45) {
 //      alert "3"
 // }
- 
+
 // else if (min > 15 && min <= 30)
 
 // Змінна num може набувати 4 значення: 1, 2, 3 або 4. Якщо вона має
@@ -78,14 +78,14 @@
 
 //За допомогою циклу for додайте всі парні числа від min до max
 
-let min = 0;
-let max = 50;
-let sum = 0;
+// let min = 0;
+// let max = 50;
+// let sum = 0;
 
-for (let i = min; i <= max; i++) {
-  if (i % 2 === 0) {
-    sum += i;
-  }
-}
+// for (let i = min; i <= max; i++) {
+//   if (i % 2 === 0) {
+//     sum += i;
+//   }
+// }
 
-console.log(sum);
+// console.log(sum);

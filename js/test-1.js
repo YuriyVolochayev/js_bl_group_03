@@ -19,12 +19,27 @@
 // Напиши функцію під назвою makeArray, яка приймає три параметри: firstArray (масив), secondArray (масив) і maxLength (число). Функція повинна створювати новий масив, який містить усі елементи з firstArray, а потім усі елементи з secondArray.
 // Якщо кількість елементів у новому масиві перевищує maxLength, функція повинна повернути копію масиву з довжиною maxLength елементів.
 // В іншому випадку функція повинна повернути весь новий масив.
+
+// Var 1
+// function makeArray(firstArray, secondArray, maxLength) {
+//    const combinedArray = firstArray.concat(secondArray);
+//     return combinedArray > maxLength ? combinedArray.slice(0, maxLength) : combinedArray;
+// }
+
+// Var 2
+
+// function makeArray(firstArray, secondArray, maxLength) {
+//     const combinedArray = firstArray.concat(secondArray);
     
-    
-    
-    
-    
-    
+//     if (combinedArray.length > maxLength) {
+
+//         return combinedArray.slice(0, maxLength);
+        
+//     } else {
+//         return combinedArray;
+        
+//     }
+// }
     
 // console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
 // console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4));
@@ -48,9 +63,18 @@
 // Використовуй умовний оператор if усередині циклу для перевірки кожного елемента и додавання до свого масиву.
 // Поверни свій новий масив з підходящими числами як результат.
 
+// function filterArray(numbers, value) {
+//     const newArray = [];
 
+//     for (let i = 0; i < numbers.length; i+=1) {
+//         if (numbers[i] > value) {
+//             newArray.push(numbers[i]);
+//         }
+//     }
 
-
+//     return newArray;
+    
+// }
 // console.log(filterArray([1, 2, 3, 4, 5], 3));
 // console.log(filterArray([1, 2, 3, 4, 5], 4));
 // console.log(filterArray([1, 2, 3, 4, 5], 5));
