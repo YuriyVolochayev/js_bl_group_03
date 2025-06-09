@@ -30,3 +30,39 @@
 //   console.log(`Registering ${name}!`);
 //   callback(name);
 // }
+
+// "use strict";
+
+// const customer = {
+//     firstName: "Jacob",
+//     lastName: "Mercer",
+//     getFullName() {
+//         return `${this.firstName} ${this.lastName}`;
+        
+//     },
+// };
+
+// function makeMessage(callback) {
+//     const username = callback();
+//     console.log(`Processing an application from ${username}`);
+    
+// }
+
+// makeMessage(customer.getFullName)
+
+// const customer = {
+//     firstName: "Jacob",
+//     lastName: "Mercer",
+//     getFullName() {
+//         return `${this.firstName} ${this.lastName}`;
+        
+//     },
+// };
+
+// function makeMessage(callback) {
+//     const username = callback();
+//     console.log(`Processing an application from ${username}`);
+    
+// }
+
+// makeMessage(customer.getFullName.bind(customer));
